@@ -1,0 +1,41 @@
+{
+  "name": "graph",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npx prisma generate & next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.6.0",
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "@prisma/client": "^4.14.0",
+    "@types/node": "18.16.3",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.1",
+    "axios": "^1.4.0",
+    "cytoscape": "^3.24.0",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.1",
+    "framer-motion": "^10.12.4",
+    "next": "13.3.1",
+    "next-swagger-doc": "^0.3.6",
+    "react": "18.2.0",
+    "react-cytoscapejs": "^2.0.0",
+    "react-dom": "18.2.0",
+    "swagger-ui-react": "^4.18.3",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/react-cytoscapejs": "^1.2.2",
+    "@types/swagger-ui-react": "^4.18.0",
+    "prisma": "^4.14.0"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
+}
